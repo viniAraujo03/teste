@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Dp1</title>
+</head>
+<body>
+    <div class="container">
+        <form action="">
+        <div class="borda">
+            <h2 id="titulo">hahdhasdashidhsadasid</h2>
+            <label for="email">email</label>
+            <input type="email" id="email" required>
+        </div>
+        <div class="borda">
+            <label for="senha">senha</label>
+            <input type="password" id="senha" required>
+            <button>enviar</button>
+        </div>
+        </form>
+    </div>
+    <script src="">
+        function escuta() {
+            var titulo = document.getElementById("titulo").value
+            var email = document.getElementById("email").value
+            var senha = document.getElementById("senha").value
+
+            if(senha === ""){
+                alert("Password obrigátorio")
+            }
+
+            titulo.innerthtml = email
+
+        console.log(email, senha)
+    }
+
+    </script>
+</body>
+</html>
